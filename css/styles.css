@@ -11822,3 +11822,26 @@ html {
     line-height: 200px;
     text-align: center;
 }
+
+#cert {
+    color: var(--bs-black);
+    text-decoration: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #cert {
+      transition: none;
+    }
+  }
+  #cert:hover, #cert:focus {
+    background: -webkit-linear-gradient(315deg, #33bbff 0%, #00ffbf 100%);
+  }
+  #cert.disabled {
+    color: var(--bs-nav-link-disabled-color);
+    pointer-events: none;
+    cursor: default;
+  }
+  
+  /* active cert link*/
+  a#cert:active{
+    color:#00334d;
+  }
