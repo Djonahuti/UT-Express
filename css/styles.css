@@ -108,6 +108,8 @@
   --bs-for-dark-btn-disabled-color: #fff;
   --bs-for-dark-btn-disabled-bg: #212529;
   --bs-for-dark-btn-disabled-border-color: #212529;
+  /* for card-bg */
+  --bs-for-card-bg: #fff;
 }
 
 [data-theme="light"]{
@@ -197,6 +199,8 @@
   --bs-for-dark-btn-disabled-color: #fff;
   --bs-for-dark-btn-disabled-bg: #212529;
   --bs-for-dark-btn-disabled-border-color: #212529;
+  /* for card-bg */
+  --bs-for-card-bg: #fff;
 }
 
 [data-theme="dark"]{
@@ -285,6 +289,8 @@
   --bs-for-dark-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-for-dark-btn-disabled-color: #f8f9fa;
   --bs-for-dark-btn-disabled-border-color: #f8f9fa;
+  /* for card-bg */
+  --bs-for-card-bg: #080808;
 }
 
 *,
@@ -4380,7 +4386,7 @@ textarea.form-control-lg {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: #fff;
+  --bs-card-bg:  var(--bs-for-card-bg);
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
