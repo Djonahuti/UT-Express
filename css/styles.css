@@ -11793,6 +11793,12 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
+.icon-inverse {
+  background: var(--bs-for-btn-hover-bg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .rounded-4 {
   border-radius: 1rem !important;
 }
