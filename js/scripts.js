@@ -56,46 +56,44 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
 * Utility function to update the button text and aria-label.
 */
 function updateButton({ buttonEl, isDark }) {
-  const newCta = isDark ? "light" : "dark";
-  // use an aria-label if you are omitting text on the button
-  // and using a sun/moon icon, for example
-  buttonEl.setAttribute("aria-label", newCta);
-  buttonEl.innerText = newCta;
+  const themeBtn = document.getElementById("theme-btn");
+  themeBtn.onclick = () => {
+    themeBtn.classList.toggle("fi-sr-eclipse");
+  };
 }
 
 /**
-* Utility function to update the theme setting on the html tag
-*/
+ * Utility function to update the theme setting on the html tag
+ */
 function updateThemeOnHtmlEl({ theme }) {
   document.querySelector("html").setAttribute("data-theme", theme);
 }
 
+/**
+ * On page load:
+ */
 
 /**
-* On page load:
-*/
-
-/**
-* 1. Grab what we need from the DOM and system settings on page load
-*/
+ * 1. Grab what we need from the DOM and system settings on page load
+ */
 const button = document.querySelector("[data-theme-toggle]");
 const localStorageTheme = localStorage.getItem("theme");
 const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
 
 /**
-* 2. Work out the current site settings
-*/
+ * 2. Work out the current site settings
+ */
 let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
 
 /**
-* 3. Update the theme setting and button text accoridng to current settings
-*/
+ * 3. Update the theme setting and button text according to current settings
+ */
 updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
 updateThemeOnHtmlEl({ theme: currentThemeSetting });
 
 /**
-* 4. Add an event listener to toggle the theme
-*/
+ * 4. Add an event listener to toggle the theme
+ */
 button.addEventListener("click", (event) => {
   const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
 
