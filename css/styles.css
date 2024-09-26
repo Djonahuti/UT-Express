@@ -87,6 +87,7 @@
   --bs-for-btn-border-color: #f8f9fa;
   --bs-for-btn-hover-color: #000;
   --bs-for-btn-hover-bg: #f8f9fa;
+  --bs-for-btn-icon-inverse-bg: #f8f9fa;
   --bs-for-btn-hover-border-color: #f8f9fa;
   --bs-for-btn-focus-shadow-rgb: 248, 249, 250;
   --bs-for-btn-active-color: #000;
@@ -177,6 +178,7 @@
   --bs-for-btn-border-color: #212529;
   --bs-for-btn-hover-color: #000;
   --bs-for-btn-hover-bg: #f8f9fa;
+  --bs-for-btn-icon-inverse-bg: #f8f9fa;
   --bs-for-btn-hover-border-color: #f8f9fa;
   --bs-for-btn-focus-shadow-rgb: 248, 249, 250;
   --bs-for-btn-active-color: #000;
@@ -267,6 +269,7 @@
   --bs-for-btn-border-color: #212529;
   --bs-for-btn-hover-color: #fff;
   --bs-for-btn-hover-bg: #424649;
+  --bs-for-btn-icon-inverse-bg: #000;
   --bs-for-btn-hover-border-color: #373b3e;
   --bs-for-btn-focus-shadow-rgb: 66, 70, 73;
   --bs-for-btn-active-color: #fff;
@@ -11806,7 +11809,7 @@ html {
 }
 
 .icon-inverse {
-  background: var(--bs-for-btn-hover-bg);
+  background: var(--bs-for-btn-icon-inverse-bg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
