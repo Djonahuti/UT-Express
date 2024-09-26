@@ -319,8 +319,7 @@ body {
 }
 
 .dark-mode {
-  background-color: #212529;
-  color: #fff;
+  background-color: var(--bs-body-bg);
 }
 
 hr {
@@ -3986,6 +3985,19 @@ textarea.form-control-lg {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
+}
+.navbar-photo {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  white-space: nowrap;
+  position:absolute;
+  top: 1.5px;
+  left: 20px;
+  width: auto;
+  height: 80px;
+  overflow:hidden;
 }
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
