@@ -96,6 +96,7 @@
   --bs-for-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-for-btn-disabled-color: #f8f9fa;
   --bs-for-btn-disabled-border-color: #f8f9fa;
+  --bs-for-navbar-active-color: rgba(0, 0, 0, 0.9);
   /* for btn-outline-dark */
   --bs-for-dark-btn-color: #212529;
   --bs-for-dark-btn-hover-color: #fff;
@@ -187,6 +188,7 @@
   --bs-for-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-for-btn-disabled-color: #f8f9fa;
   --bs-for-btn-disabled-border-color: #f8f9fa;
+  --bs-for-navbar-active-color: rgba(0, 0, 0, 0.9);
   /* for btn-outline-dark */
   --bs-for-dark-btn-color: #212529;
   --bs-for-dark-btn-border-color: #212529;
@@ -279,6 +281,7 @@
   --bs-for-btn-disabled-color: #fff;
   --bs-for-btn-disabled-bg: #212529;
   --bs-for-btn-disabled-border-color: #212529;
+  --bs-for-navbar-active-color: rgba(0, 255, 191, 0.868);
   /* for btn-outline-dark */
   --bs-for-dark-btn-color: #f8f9fa;
   --bs-for-dark-btn-border-color: #f8f9fa;
@@ -3955,7 +3958,7 @@ textarea.form-control-lg {
   --bs-navbar-color: var(--bs-for-navbar-color);
   --bs-navbar-hover-color: var(--bs-for-navbar-hover-color);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
-  --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-active-color:   var(--bs-for-navbar-active-color);
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
