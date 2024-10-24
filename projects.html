@@ -1,185 +1,97 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>David Utibe Jonah Project</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/ut.png" />
-        <!-- Custom Google font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        
-        <!-- Bootstrap icons-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!--flaticon -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css" rel="stylesheet"/>
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <!-- Custom icons CSS (includes Bootstrap)-->
-        <link href="assets/uicons/css/uicons-solid-rounded.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><img class="navbar-photo align-top" src="assets/UTlogo.png"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                          <li class="nav-item"><a class="nav-link" href="index.html" title="Home">Home</a></li>
-                          <li class="nav-item"><a class="nav-link" href="resume.html" title="My Resume">Resume</a></li>
-                          <li class="nav-item"><a class="nav-link active" href="projects.html" title="Projects Page">Projects</a></li>
-                          <li class="nav-item"><a class="nav-link" href="contact.html" title="Contact Page">Contact</a></li>
-                          <li class="nav-item"><a class="nav-link" href="" title="Light/Dark Mode" type="button" data-theme-toggle ><i id="theme-btn" class="fi fi-sr-eclipse" style="font-size: 25px;"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Projects Section-->
-            <section class="py-me">
-                <div class="container px-5 mb-5">
-                    <div class="text-center mb-5">
-                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
-                    </div>
-                    <!--Project rows-->
-                    <div class="row">
-                      <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item myrow">
-                        <div class="card h-100">
-                          <iframe class="card-img-top" width="300" height="323" src="https://www.youtube.com/embed/3gFlq1XNztY?si=Whzf_iSWxPcLfEjS" title="A Graphical-Authentication-User-System-Experience (GAUSX)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                          <div class="card-body" id="proBox">
-                            <h4 class="card-title">
-                              <a href="https://www.uhome.com.ng" target="_blank" class="text-gradient">A Graphical-Authentication-User-System-Experience (GAUSX)</a>
-                            </h4>
-                            <p class="card-text">This innovative web-based authentication system offers users the option to create a more secure login process by utilizing a combination of graphical and text-based passwords. Studies have indicated that people tend to remember images more effectively than text, and traditional text passwords are susceptible to hacking. By allowing users to select specific images and grid points to use as their graphical passwords, this system aims to provide a higher level of security compared to standard text passwords.
+  <html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/assets/UTlogo-Cyp1Bii3.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/ut.png" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+    
+    <!-- Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!--flaticon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/79d7886b0f.js" crossorigin="anonymous"></script>
+    <script type="module" crossorigin src="/assets/main-BsL_2n1A.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-Douz-DH2.css">
+  </head>
+  <body class="d-flex flex-column h-100">
+      <main class="flex-shrink-0">
+          <!-- Navigation-->
+          <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+              <div class="container px-5">
+                  <a class="navbar-brand" href="index.html"><img class="navbar-photo align-top" src="/assets/UTlogo-Cyp1Bii3.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="index.html" title="Home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume" title="My Resume">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="projects" title="Projects Page">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact" title="Contact Page">Contact</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="theme-toggle">
+                              <i class="fa-solid fa-sun" id="theme-icon" style="font-size: 20px;" title="Theme toggle"></i>
+                            </a></li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+          <!-- Projects Section-->
+          <section class="py-me">
+              <div class="container px-5 mb-5">
+                  <div class="text-center mb-5">
+                      <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                  </div>
+                  <!--Project rows-->
+                  <div class="row project-list">
+                  </div>
+              </div>
+          </section>
+          <!-- Call to action section-->
+          <section class="py-5 bg-gradient-primary-to-secondary text-white">
+              <div class="container px-5 my-5">
+                  <div class="text-center">
+                      <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+                      <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
+                  </div>
+                  <div class="d-flex justify-content-center fs-2 gap-4">
+                      <a class="icon-inverse" href="#!"><i class="bi bi-twitter-x"></i></a>
+                      <a class="icon-inverse" href="https://www.linkedin.com/in/david-utibe-jonah-482210234/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                      <a class="icon-inverse" href="https://github.com/Djonahuti"><i class="bi bi-github" target="_blank"></i></a>
+                  </div>
+              </div>
+          </section>
+      </main>
+      <!-- Footer-->
+      <footer class="bg-white py-4 mt-auto">
+          <div class="container px-5">
+              <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                  <div class="col-auto"><div class="small m-0">Copyright &copy; UT Express 2018</div></div>
+                  <div class="col-auto">
+                      <a class="small" href="#!">Privacy</a>
+                      <span class="mx-1">&middot;</span>
+                      <a class="small" href="#!">Terms</a>
+                      <span class="mx-1">&middot;</span>
+                      <a class="small" href="contact.html">Contact</a>
+                  </div>
+              </div>
+          </div>
+      </footer>
 
-                              This project was developed using HTML, PHP, JavaScript, JQuery, CSS and MySQL.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item myrow">
-                        <div class="card h-100">
-                          <iframe class="card-img-top" width="300" height="323" src="https://www.youtube.com/embed/goT1Ci_upKY?si=8Wr-UldPevCGGdRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                          <div class="card-body" id="proBox">
-                            <h4 class="card-title">
-                              <a href="https://utprojectmsp.netlify.app/" target="_blank" class="text-gradient">Music Player</a>
-                            </h4>
-                            <p class="card-text">Responsive Music Player made with React JS</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item myrow">
-                        <div class="card h-100">
-                          <a href="#"><img class="card-img-top" src="https://dummyimage.com/300x400/343a40/6c757d" alt=""></a>
-                          <div class="card-body" id="proBox">
-                            <h4 class="card-title">
-                              <a href="#" class="text-gradient">Project Three</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item myrow">
-                        <div class="card h-100">
-                          <a href="#"><img class="card-img-top" src="https://dummyimage.com/300x400/343a40/6c757d" alt=""></a>
-                          <div class="card-body" id="proBox">
-                            <h4 class="card-title">
-                              <a href="#" class="text-gradient">Project Four</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item myrow">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="https://dummyimage.com/300x400/343a40/6c757d" alt=""></a>
-                            <div class="card-body" id="proBox">
-                              <h4 class="card-title">
-                                <a href="#" class="text-gradient">Project Five</a>
-                              </h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item myrow">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="https://dummyimage.com/300x400/343a40/6c757d" alt=""></a>
-                            <div class="card-body" id="proBox">
-                              <h4 class="card-title">
-                                <a href="#" class="text-gradient">Project Six</a>
-                              </h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item myrow">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="https://dummyimage.com/300x400/343a40/6c757d" alt=""></a>
-                            <div class="card-body" id="proBox">
-                              <h4 class="card-title">
-                                <a href="#" class="text-gradient">Project Seven</a>
-                              </h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item myrow">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="https://dummyimage.com/300x400/343a40/6c757d" alt=""></a>
-                            <div class="card-body" id="proBox">
-                              <h4 class="card-title">
-                                <a href="#" class="text-gradient">Project Eight</a>
-                              </h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Call to action section-->
-            <section class="py-5 bg-gradient-primary-to-secondary text-white">
-                <div class="container px-5 my-5">
-                    <div class="text-center">
-                        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
-                    </div>
-                    <div class="d-flex justify-content-center fs-2 gap-4">
-                        <a class="icon-inverse" href="#!"><i class="bi bi-twitter-x"></i></a>
-                        <a class="icon-inverse" href="https://www.linkedin.com/in/david-utibe-jonah-482210234/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                        <a class="icon-inverse" href="https://github.com/Djonahuti"><i class="bi bi-github" target="_blank"></i></a>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; UT Express 2018</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="contact.html">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
-</html>
+
+      <!-- Bootstrap core JS-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Core theme JS-->
+      <script src="js/scripts.js"></script>
+  </body>
+  </html>
